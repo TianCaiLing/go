@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>法兰城的回忆【运营活动】</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+   <!--  可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+	
+	 <link href="../css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+	
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
+	<!--时间--->
+	<script type="text/javascript" src="../js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+	
+    <script src="../js/js.js"></script>
+    <!-- 侧导航 -->
+    <link href="../css/navbar-static-top.css" rel="stylesheet">
+    <link href="../css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+	<script>
+		
+		if(sessionStorage.getItem("type")!=2){
+		window.location.href="index.html" //证明不是用户登录的，跳转到你需要的页面；
+		};
+
+	</script>
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation" >
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse" style="width:1401px;">
+          <ul class="nav navbar-nav ou">
+            <li><a href="manage.html" >管理功能 </a></li>
+            <li><a href="chat.html" >聊天查询</a></li>
+            <li class="active"><a href="operative.html">运营活动</a></li>
+            <li><a href="role.html">角色查询</a></li>
+            <li><a href="history.html">历史公告邮件/活动状态查询</a></li>
+            <li><a href="gm.html" >GM功能</a></li>
+            <li><a href="statistic.html" >数据统计</a></li>
+            <li><a href="user.html" >用户统计</a></li>
+			<li><a href="simulator.html" >游服操作</a></li>
+			
+          </ul>
+            <button  type="button" id="Admin_btn" class="btn btn-default" style="margin-top:8px;margin-left:100px;">超级管理员</button>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- 导航结束 -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar w_sidebar">
+          <ul class="nav nav-sidebar ul">
+            <li class='active logo'><a href="#">登录活动</a></li>
+            <li class="recharge"><a href="#">累积充值</a></li>
+            <li class="shop"><a href="#">打折商店</a></li>
+            <li class="Singl"><a href="#">单笔充值</a></li>
+            <li class="partner"><a href="#">热点伙伴</a></li>
+            <li class=" finde"><a href="#">顶级招募</a></li>
+			<li class=" finde"><a href="#">小额礼包</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main tab">
+          <!-- 登录活动 -->
+            <div id="activity-1" aria-labelledby="ui-id-31" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content show" aria-hidden="false" style="display: block;">
+              <form id="activity" >
+                <div>  
+                  <fieldset>
+                    <legend class="legend">刘龙勤大区</legend>
+                    <div id="login_activity刘龙勤大区" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix log public">
+                    </div>
+                  </fieldset>  
+                  <fieldset>
+                    <legend>时间参数</legend>
+                    <div id="login_activity_div_1" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                    
+					<label for="low_time1" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">活动开始时间</label>
+			        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+			            <input id="low_time1" name="low_time1" class="form-control" size="16" type="text" value="" readonly>
+			            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+						<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+			         </div>
+					<label for="low_time1" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">活动关闭时间</label>
+					 <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+			            <input id="close_time1" name="close_time1" class="form-control" size="16" type="text" value="" readonly>
+			            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+						<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+			         </div>
+					
+                  </fieldset>
+                  <fieldset style="margin-top:10px;">
+                    <legend>参数</legend><br>
+                    <div id="login_activity_div_2" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                        <table class="table btable" id="tab16" >
+                          <tbody>
+								<tr align="center">
+		                            <td width="18%">天数</td>
+		                            <td width="18%">奖励</td>
+		                            <td width="18%">数量</td>
+		                            <td width="18%">选择</td>
+		                        </tr>
+                        	</tbody>
+						</table>
+                        <input type="button" class="w_add"  value="添加" class="ui-widget ui-controlgroup-item ui-button ui-corner-left" role="button">
+                        <input type="button" class="w_remove"  value="删除" class="ui-widget ui-button ui-controlgroup-item" role="button">
+                      <input id="sub" type="button" value="发送" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button">
+                    </div>
+                  </fieldset>
+                </div>
+              </form>
+            </div>
+            <!-- 累积充值 -->
+            <div id="activity-2" aria-labelledby="ui-id-32" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content hide" aria-hidden="false" style="display: block;">
+              <form id="accumulate_recharge" >
+                  <div>
+                      <fieldset>
+                        <legend class="legend">刘龙勤大区</legend>
+                        <div id="accumulate_recharge刘龙勤大区" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfixv recharg hs public">
+                           
+                        </div>
+                      </fieldset>   
+                      <fieldset>
+                          <legend>时间参数</legend>
+                          <div id="accumulate_recharge_div_2" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                         
+							<label for="appointed_day" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">指定时间开启</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="appointed_day" name="appointed_day1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+							<label for="close_day" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">活动关闭时间</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="close_day" name="close_day1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+                          </div>
+                      </fieldset> 
+                      <fieldset style="margin-top:10px;">
+                        <legend>累积充值档次</legend>
+                        <div id="accumulate_recharge_div_1" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                            <table id="tab" class="table btable">
+                             <tbody><tr align="center">
+                            <td width="20%">金额</td>
+                            <td width="20%">奖励</td>
+                            <td width="20%">数量</td>
+                            <td width="20%">选择</td>
+                             </tr>
+                            </tbody></table>
+                             <input type="button" class="w_add"  value="添加" class="ui-widget ui-controlgroup-item ui-button ui-corner-left" role="button">
+                        <input type="button" class="w_remove"  value="删除" class="ui-widget ui-button ui-controlgroup-item" role="button">
+                          <input id="btn2" type="button" value="发送" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button">
+                        </div>
+                      </fieldset> 
+                    </div>      
+              </form>
+            </div>
+            <!-- 打折商店 -->
+            <div id="activity-3" aria-labelledby="ui-id-33" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content hide" aria-hidden="false" style="display: block;">
+                <form id="discount_store">
+                  <div>
+                    <fieldset>
+                      <legend class="legend">刘龙勤大区</legend>
+                      <div id="discount_store刘龙勤大区" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix shp hs public"> 
+                      </div>
+                    </fieldset>
+                    <fieldset>
+                      <legend>时间参数</legend>
+                      <div id="discount_store_div_1" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                      
+							<label for="open_time" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">指定开启时间</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="open_time" name="open_time1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+							<label for="close_time" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">活动关闭时间</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="close_time" name="close_time1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+                      </div>
+                    </fieldset>
+                    <fieldset style="margin-top:10px;">
+                      <legend>商店内容</legend>
+                      <div id="discount_store_div_2" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                        <br><table  id="tab17" class="table btable">
+                          <tbody><tr align="center" width="100px">
+                            <td width="16%">道具ID</td>
+                            <td width="16%">价格</td>
+                            <td width="16%">折扣</td>
+                            <td width="16%">限购</td>
+							<td width="16%">数量</td>
+                            <td width="16%">选择</td>
+                          </tr>
+                        </tbody></table>
+                        <input type="button" class="w_add"  value="添加" class="ui-widget ui-controlgroup-item ui-button ui-corner-left" role="button">
+                        <input type="button" class="w_remove"  value="删除" class="ui-widget ui-button ui-controlgroup-item" role="button">
+                        <input id="btn3" type="button" value="发送" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button">
+                      </div>  
+                    </fieldset>
+                  </div>
+                </form>
+            </div>
+            <!-- 单笔充值 -->
+            <div id="activity-4" aria-labelledby="ui-id-34" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content hide" aria-hidden="false" style="display: block;">
+              <form id="single_recharge" >
+                  <div>
+                    <fieldset>
+                      <legend class="legend">刘龙勤大区</legend>
+                      <div id="single_recharge刘龙勤大区" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix Sing public">
+                      </div>
+                    </fieldset>   
+                    <fieldset>
+                          <legend>时间参数</legend>
+                          <div id="single_recharge_div_2" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                          
+							<label for="open_time" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">指定开启时间</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="open_time" name="open_time1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+							<label for="close_time" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">活动关闭时间</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="close_time" name="close_time1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+                          </div>
+                    </fieldset>
+                    <fieldset style="margin-top:10px;">
+                          <legend>单笔充值档次</legend>
+                          <div id="single_recharge_div_1" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                          <table  id="tab1" class="table btable">
+                               <tbody><tr align="center">
+                              <td width="20%">金额</td>
+                              <td width="20%">奖励</td>
+                              <td width="20%">数量</td>
+                              <td width="20%">次数</td>
+                              <td width="20%">选择</td>
+                               </tr>
+                          </tbody></table>
+                               <input type="button" class="w_add"  value="添加" class="ui-widget ui-controlgroup-item ui-button ui-corner-left" role="button">
+                        <input type="button" class="w_remove"  value="删除" class="ui-widget ui-button ui-controlgroup-item" role="button">
+                              <input id="btn4" type="button" value="发送" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button">
+                          </div>
+                    </fieldset>
+                  </div>
+               </form>
+            </div>
+            <!-- 热点伙伴 -->
+            <div id="activity-5" aria-labelledby="ui-id-35" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content hide" aria-hidden="false" style="display: block;">
+              <form id="hotspot_partner">
+                  <div>
+                    <fieldset>
+                      <legend class="legend">刘龙勤大区</legend>
+                      <div id="hotspot_partner刘龙勤大区" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix partne public"> 
+                      </div>
+                    </fieldset>  
+                    <fieldset>
+                      <legend>伙伴参数</legend>
+                      <div id="hotspot_partner_div_1" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+						
+						<select id="types" name="partner_type" style="margin-left: 33px; width: 55px;height: 25px;margin-bottom:20px;">
+	                          
+	                            <option value="true" >是</option>
+	                            
+	                            <option value="false">否</option>
+	                            
+	                        </select>
+                        <label for="partner_type" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-button ui-controlgroup-item ui-checkboxradio-label ui-corner-left" style="width:60px;"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><span class="ui-controlgroup-label-contents">伙伴</span></label>                        
+                      <br><br>
+							<label for="partner_opentime" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">指定开启时间</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="opentime" name="opentime1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+							<label for="closetime" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">活动关闭时间</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="closetime" name="closetime1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+                        
+                        <label for="prop_id" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item"><span class="ui-controlgroup-label-contents">伙伴道具的ID</span></label>
+                        <input id="prop_id" name="prop_id" class="ui-controlgroup-item"><br><br>
+                        <label for="partner_price" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item"><span class="ui-controlgroup-label-contents">热点伙伴价格</span></label>
+                        <input id="partner_price" name="partner_price" class="ui-controlgroup-item"><br><br>
+                        <label for="prop_quantity" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-right"><span class="ui-controlgroup-label-contents">伙伴道具数量</span></label>
+                        <input id="prop_quantity" name="prop_quantity" class="ui-controlgroup-item"><br><br>
+                        
+                      </div>
+                    </fieldset>
+                    <fieldset style="margin-top:10px;">
+                      <legend>参数</legend>
+                      <div id="hotspot_partner_div_2" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                        <label for="purchased_number" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-left"><span class="ui-controlgroup-label-contents">玩家购买次数</span></label>
+                        <input id="purchased_number" name="purchased_number" class="ui-controlgroup-item">
+                        <input id="btn5" type="button" value="发送" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button">
+                      </div>
+                    </fieldset> 
+                </div>
+              </form>
+            </div>
+            <!-- 抽伙伴伙伴 -->
+            <div id="activity-6" aria-labelledby="ui-id-36" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content hide" aria-hidden="false" style="display: block;">
+                <form id="extract_partner"> 
+                  <div>
+                    <fieldset>
+                    
+                      <legend class="legend">刘龙勤大区</legend>
+                      <div id="extract_partner刘龙勤大区" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix finda public">
+                      </div>
+                    </fieldset> 
+                    <fieldset>
+                      <legend>时间参数</legend>
+                      <div id="extract_partner_div_1" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                      
+						
+							<label for="opentime" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">指定开启时间</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="opentime" name="opentime1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+							<label for="closetime" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:120px;">活动关闭时间</label>
+					        <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="margin-bottom:20px;">
+					            <input id="closetime" name="closetime1" class="form-control" size="16" type="text" value="" readonly>
+					            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+					         </div>
+                        
+                      </div>
+                    </fieldset>
+                    <fieldset>
+                      <legend>参数</legend>
+                      <div id="extract_partner_div_2" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                      <table  id="tab12" class="table btable">
+                        <tbody>
+							<tr align="center">
+		                        <td width="20%">需招募次数</td>
+		                        <td width="20%">奖励</td>
+		                        <td width="20%">数量</td>
+		                        <td width="20%">选择</td>
+	                         </tr>
+                        </tbody></table>
+                         <input type="button" class="w_add"  value="添加" class="ui-widget ui-controlgroup-item ui-button ui-corner-left" role="button">
+                        <input type="button" class="w_remove"  value="删除" class="ui-widget ui-button ui-controlgroup-item" role="button">
+                        <input id="btn6" type="button" value="发送" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button">
+                      </div>
+                    </fieldset>
+                  </div>
+                </form>
+            </div>
+			 <!-- 小额礼包 -->
+            <div id="activity-7" aria-labelledby="ui-id-36" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content hide" aria-hidden="false" style="display: block;">
+                <form id="Money_partner"> 
+                  <div>
+                    <fieldset>
+                      <legend class="legend">刘龙勤大区</legend>
+                      <div id="Money_partner刘龙勤大区" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix finda public">
+                      </div>
+                    </fieldset> 
+                   <fieldset>
+                      <legend>礼包道具</legend>
+                      <div id="div_1" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                        <label for="item_1" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-left"><span class="ui-controlgroup-label-contents">道具</span></label>
+                        <input id="item_1" name="itemId_1" class="ui-controlgroup-item ui-autocomplete-input" autocomplete="off">
+                        
+                        <label for="stack_1" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-right"><span class="ui-controlgroup-label-contents">堆叠</span></label>
+                        <input id="stack_1" name="itemNum_1" class="ui-controlgroup-item">
+                      </div>
+                  
+                      <div id="div_2" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                        <label for="item_2" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-left"><span class="ui-controlgroup-label-contents">道具</span></label>
+                        <input id="item_2" name="itemId_2" class="ui-controlgroup-item ui-autocomplete-input" autocomplete="off">
+                        <label for="stack_2" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-right"><span class="ui-controlgroup-label-contents">堆叠</span></label>
+                        <input id="stack_2" name="itemNum_2" class="ui-controlgroup-item">
+                      </div>
+                  
+                      <div id="div_3" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                        <label for="item_3" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-left"><span class="ui-controlgroup-label-contents">道具</span></label>
+                        <input id="item_3" name="itemId_3" class="ui-controlgroup-item ui-autocomplete-input" autocomplete="off">
+                        <label for="stack_3" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-right"><span class="ui-controlgroup-label-contents">堆叠</span></label>
+                        <input id="stack_3" name="itemNum_3" class="ui-controlgroup-item">
+                      </div>
+
+                      <div id="div_4" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                        <label for="item_4" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-left"><span class="ui-controlgroup-label-contents">道具</span></label>
+                        <input id="item_4" name="itemId_4" class="ui-controlgroup-item ui-autocomplete-input" autocomplete="off">
+                        <label for="stack_4" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-right"><span class="ui-controlgroup-label-contents">堆叠</span></label>
+                        <input id="stack_4" name="itemNum_4" class="ui-controlgroup-item">
+                      </div>
+                    </fieldset>
+					<fieldset style="margin-top:10px;">
+                      <legend>时间</legend>
+                      <div id="time" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+                     
+			                <label for="sinceStamp" class="col-sm-1 control-label" style="margin-top:8px;padding-left:0;width:73px;">开始时间</label>
+			                <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1" style="float:left;">
+			                    <input id="sinceStamp" name="sinceStamp" class="form-control" size="16" type="text" value="" readonly>
+			                    <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+			                </div>
+							
+			                <label for="endStamp" class="col-sm-1 control-label" style="margin-top:5px;width:88px;">结束时间</label>
+			                <div class="input-group date form_datetime col-sm-3" data-date="2016-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+			                    <input id="endStamp" name="endStamp" class="form-control" size="16" type="text" value="" readonly>
+			                    <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+								<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+			                </div>
+							
+			           
+                    </fieldset>
+					<fieldset>
+                      <legend >是否已购买</legend>
+						<div id="Money" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix finda ">
+	                      	
+							<select id="types" name="isflag" style="margin-left: 33px; width: 175px;height: 25px;margin-bottom:20px;">
+	                          
+	                            <option value="true" >是</option>
+	                            
+	                            <option value="false">否</option>
+	                            
+	                        </select>
+<!--							<input id="t_btn" type="button" value="发送" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button">-->
+						</div>
+                    </fieldset>
+					<fieldset>
+                      <legend >价格</legend>
+						<div id="Money" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix finda ">
+							<label for="price" class="ui-button ui-widget ui-controlgroup-item ui-checkboxradio-label ui-corner-left">
+								<span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span>
+								<span class="ui-checkboxradio-icon-space"></span>现价
+							</label>
+	                      	<input id="price" type="text" name="price"  value=""   class="ui-checkboxradio ui-helper-hidden-accessible input">
+							
+							<label  for="oldprice" class="ui-button ui-widget ui-controlgroup-item ui-checkboxradio-label ui-corner-left">
+								<span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span>
+								<span class="ui-checkboxradio-icon-space"></span>原价
+							</label>
+							<input  id="oldprice" type="text" name="oldprice"  value=""   class="ui-checkboxradio ui-helper-hidden-accessible input">
+							
+							<input id="t_btn" type="button" value="发送" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button">
+						</div>
+                    </fieldset>
+					
+                  </div>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

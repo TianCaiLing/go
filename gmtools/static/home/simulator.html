@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>法兰城的回忆【游服操作】</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+	
+    <!--<link href="../css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">-->
+	
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="../js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
+	
+	<script type="text/javascript" src="../js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+
+    <script src="../js/js.js"></script>
+	
+    <!-- 侧导航 -->
+    <link href="../css/navbar-static-top.css" rel="stylesheet">
+    <link href="../css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+	<script>
+		$(function(){
+			if(sessionStorage.getItem("type")!=2){
+				window.location.href="index.html" //证明不是用户登录的，跳转到你需要的页面；
+			};
+			
+			var input=$(".button")
+			for(var i=0;i<input.length;i++){
+				input.eq(i).click(function(){
+					var name=$(this).attr("name")
+					var id=$("#sever_id").val()
+					//alert($("#sever_execute").serialize())
+					$.ajax({
+						type:"post",
+						url:"../do_sever_execute.php",
+						data:{sever_id:id,button:name},
+						success:function(e){
+							
+							alert("成功")
+						},error:function(e){
+							alert("失败")
+						}
+					})
+				})
+			}
+			//渠道管理
+			$.ajax({
+				type:"post",
+				url:"../query_area_servers.php",
+				dataType:"json",
+				success:function(e){
+					for(var key in e){
+						var tim=e[key]
+						for(var i=0; i<tim.length;i++){
+							//$(".inputs").val(tim[0].name)
+							//$(".pay_input").val(tim[0].name)
+							 var id=tim[i].id
+							var select= tim[i].Channels.join(",")
+							lable= '<tr><td class="fwqid">'+id+'</td><td class="fwqname">'+tim[i].name+'</td><td class="version"><input  value="'+tim[i].version+'"/></td><td class="CDN"><input  value="'+tim[i].CDN+'"/></td><td class="qd"><input  value="'+select+'"/></td ><td><input class="update" name="update" type="button" value="更新" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button"></td></tr>'
+							$(".tbody").append(lable)
+						}
+					} 
+				}
+			})
+			$(document).on("click",".update",function(){
+					var id=$(this).parent().siblings(".fwqid").html()
+					var name=$(this).parent().siblings(".fwqname").html()
+					var version=$(this).parent().siblings(".version").find("input").val()
+					var CDN=$(this).parent().siblings(".CDN").find("input").val()
+					var qd=$(this).parent().siblings(".qd").find("input").val()
+					$.ajax({
+					type:"post",
+					url:"../do_channel.php",
+					dataType:"json",
+					data:{id:id,name:name,version:version,CDN:CDN,qd:qd},
+					success:function(e){
+						alert("成功")
+					},error:function(){
+						alert("失败")
+					}
+					
+				})
+				//location.reload()
+			})
+				
+			
+	})	
+	
+	//$(function(){
+		//$("#add_sever").click(function(){
+				//alert($("#tjfuq").serialize())
+				//$.ajax({
+					//type:"post",
+					//url:"../do_add_sever.php",
+					//dataType:"json",
+					//data:$("#tjfuq").serialize(),
+					//success:function(e){
+						//alert("成功")
+					//},error:function(){
+						//alert("失败")
+					//}
+			//})
+		//})	
+	//})
+	</script>
+  </head>
+  <body>
+    <!-- Static navbar -->
+   <nav class="navbar navbar-inverse navbar-static-top" role="navigation" >
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse" style="width:1401px;">
+          <ul class="nav navbar-nav ou">
+            <li><a href="manage.html" >管理功能 </a></li>
+            <li><a href="chat.html" >聊天查询</a></li>
+            <li><a href="operative.html">运营活动</a></li>
+            <li><a href="role.html">角色查询</a></li>
+            <li><a href="history.html">历史公告邮件/活动状态查询</a></li>
+            <li><a href="gm.html" >GM功能</a></li>
+            <li><a href="statistic.html" >数据统计</a></li>
+            <li><a href="user.html" >用户统计</a></li>
+			<li  class="active"><a href="simulator.html" >游服操作</a></li>
+          </ul>
+          <button  type="button" id="Admin_btn" class="btn btn-default" style="margin-top:8px;margin-left:100px;">超级管理员</button>
+        </div>
+      </div>
+    </nav>
+    <!-- 导航结束 -->
+    <div class="container-fluid">
+	    <div class="row">
+	        <div class="col-sm-3 col-md-2 sidebar w_sidebar">
+	          <ul class="nav nav-sidebar ul">
+	            <li class="active"><a href="#">模拟充值</a></li>
+	            <li ><a href="#">执行命令</a></li>
+				<li class="oli"><a href="#">渠道管理</a></li>
+	           	<li ><a href="#">服务器开关</a></li>
+				<li ><a href="#">添加服务器</a></li>
+	          </ul>
+	        </div>
+	        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main tab" id="D_content">
+				<!-- 模拟模块 -->
+		          <div class="row placeholders show" style="text-align:left;">
+		             <form id="simulator">
+		              <div>
+						<fieldset class="fieldset">
+		                      <legend class="legend">刘龙勤大区</legend>
+		                      <div id="刘龙勤大区" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix lab public1"> 
+		                      </div>
+		                </fieldset>
+		                <fieldset>
+		                 	<div>   
+					           <table  class="table btable" style="border:1px solid #999;">
+			                         <tbody>
+										<tr align="center" width="100px">
+				                            <td width="16%">商城ID</td>
+				                            <td width="16%">订单编号 </td>
+				                            <td width="16%">订单金额  </td>
+				                            <td width="16%">角色id</td>
+				                         </tr>
+										<tr align="center" width="100px">
+				                            <td width="16%" ><input type="text" name="ShopId"/></td>
+				                            <td width="16%"><input type="text" name="Orderid"/> </td>
+				                            <td width="16%"><input type="text" name="Payment"/> </td>
+				                            <td width="16%"><input type="text" name="PlayerId"/></td>
+				                         </tr>
+			                        </tbody>
+								</table>
+				           	</div>
+		                </fieldset>
+						<input type="button" id="mn_but" value="执行"/>
+		              </div>
+		            </form>
+		          </div> 
+		          <!-- 执行模块 -->
+		          <div class="row placeholders hide" style="text-align:left;">
+		            <form id="execute">
+		              <div>
+						<fieldset  class="fieldset">
+		                      <legend class="legend">刘龙勤大区</legend>
+		                      <div id="刘龙勤大区" role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix lab public1"> 
+		                      </div>
+		                </fieldset>
+		                <fieldset>
+		                  <textarea id="content" name="content" style="resize:none;width:100%;height:20em"></textarea>
+		                </fieldset>
+		                <fieldset>
+		                  <div id="param " role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix inputs">
+		                   
+		                    <input id="zx_but" type="button" value="执行" class="ui-widget ui-controlgroup-item ui-button ui-corner-right" role="button" >
+		                  </div>
+		                </fieldset>
+		              </div>
+		            </form>
+		          </div> 
+				<!-- 渠道模块 -->
+		          <div class="row placeholders hide" style="text-align:left;">
+		              	<div  role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+							<form id="qudao" style="float:left;margin-right:20px;">
+		                       <table  class="table" style="border:1px solid #999;">
+			                         <tbody class="tbody">
+										<tr align="center" width="100px">
+				                            <td width="16%">服务器ID</td>
+				                            <td width="16%">服务器名</td>
+				                            
+											<td width="16%">版本号</td>
+											<td width="16%">资源版本号</td>
+											<td width="16%">渠道ID  </td>
+											<td width="16%"></td>
+				                         </tr>
+			                        </tbody>
+								</table>
+								
+							</form>
+						</div>
+		          </div> 
+				<!-- 服务器模块 -->
+		          <div class="row placeholders hide" style="text-align:left;">
+		              	<div  role="toolbar" class="ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix">
+							<form id="sever_execute" style="float:left;margin-right:20px;">
+		                        <label for="sever_id" class="ui-controlgroup-label ui-widget ui-widget-content ui-state-default ui-controlgroup-item ui-corner-left"><span class="ui-controlgroup-label-contents">服务器ID</span></label>
+		                        <input  name="sever_id" id="sever_id" class="ui-controlgroup-item" >
+								<input id="open" name="open" type="button" value="开启" class="ui-widget ui-controlgroup-item ui-button ui-corner-right button" role="button">
+								<input id="close" name="close" type="button" value="关闭" class="ui-widget ui-controlgroup-item ui-button ui-corner-right button" role="button">
+								<input id="backup" name="backup" type="button" value="备份" class="ui-widget ui-controlgroup-item ui-button ui-corner-right button" role="button">
+							</form>
+						</div>
+		          </div> 
+				<!--添加服务器-->
+				 <div class="row placeholders hide" style="text-align:left;">
+		             <form id="tjfuq">
+		              <div>
+		                <fieldset>
+		                 	<div>   
+					           <table  class="table btable" style="border:1px solid #999;">
+			                         <tbody>
+										<tr align="center" width="100px">
+				                            <td width="16%">ID</td>
+				                            <td width="16%">Capa </td>
+				                            <td width="16%">Area  </td>
+				                            <td width="16%">Name</td>
+											<td width="16%">AreaName</td>
+											<td width="16%">Host</td>
+											<td width="16%">Port</td>
+											<td width="16%">OauthPort</td>
+				                         </tr>
+										<tr align="center" width="100px">
+				                            <td width="16%" ><input type="text" name="ID"/></td>
+				                            <td width="16%"><input type="text" name="Capa"/> </td>
+				                            <td width="16%"><input type="text" name="Area"/> </td>
+				                            <td width="16%"><input type="text" name="Name"/></td>
+											<td width="16%" ><input type="text" name="AreaName"/></td>
+				                            <td width="16%"><input type="text" name="Host"/> </td>
+				                            <td width="16%"><input type="text" name="Port"/> </td>
+				                            <td width="16%"><input type="text" name="OauthPortOauthPort"/></td>
+											
+				                            
+				                         </tr>
+										<tr align="center" width="100px">
+				                          
+											<td width="16%">PayPort</td>
+											<td width="16%">GMTPort</td>
+											<td width="16%">LogDBHost</td>
+											<td width="16%">LogDBPort</td>
+											<td width="16%">LogDBUsr</td>
+											<td width="16%">LogDBPwd</td>
+											<td width="16%">ResVersion</td>
+											<td width="16%">Version</td>
+											
+				                         </tr>
+										<tr align="center" width="100px">
+											<td width="16%" ><input type="text" name="PayPort"/></td>
+				                            <td width="16%"><input type="text" name="GMTPort"/> </td>
+				                            <td width="16%"><input type="text" name="LogDBHost"/> </td>
+				                            <td width="16%"><input type="text" name="LogDBPort"/></td>
+											<td width="16%" ><input type="text" name="LogDBUsr"/></td>
+				                            <td width="16%"><input type="text" name="LogDBPwd"/> </td>
+				                            <td width="16%"><input type="text" name="ResVersion"/> </td>
+				                            <td width="16%"><input type="text" name="Version"/></td>
+											
+				                            
+				                         </tr>
+										<tr align="center" width="100px">
+											<td width="16%" style="border:1px solid #999;">Channels</td>
+				                         </tr>
+										<tr align="center" width="100px;">
+											<td width="16%" style="border:1px solid #999;"><input type="text" name="Channels"/></td>
+				                            
+				                         </tr>
+			                        </tbody>
+								</table>
+				           	</div>
+		                </fieldset>
+						<input type="button" id="add_sever" value="执行"/>
+		              </div>
+		            </form>
+		          </div> 
+        	</div>
+      	</div>
+    </div>
+	
+  </body>
+</html>

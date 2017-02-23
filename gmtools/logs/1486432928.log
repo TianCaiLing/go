@@ -1,0 +1,229 @@
+2017/02/07 10:02:08 [I] [asm_amd64.s:2086] http server Running on http://:8980
+2017/02/07 10:02:09 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:02:09 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:02:09 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:02:09 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:04 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:04 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:04 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:04 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:08 [D] [history.go:667] system_notice 
+2017/02/07 10:11:08 [D] [database.go:16] xysk:123456@tcp(127.0.0.1:3306)/gmtools 
+2017/02/07 10:11:08 [D] [history.go:134] [{1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群【563902680】，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+活 000000 2017-01-10 11:07:43} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群【563902680】，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+活 000000 2017-01-10 11:10:52} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群【563902680】，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+活 000000 2017-01-10 11:12:05} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[0000FF]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带 000000 2017-01-10 11:18:25} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[FFFF00]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带 000000 2017-01-10 11:20:05} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[00FF00]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带 000000 2017-01-10 11:20:54} {[2265fd]1月10日IOS正版正式上线[-] 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带 000000 2017-01-10 11:25:27} {[2265fd]1月10日IOS正版正式上线[-] 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的水晶 000000 2017-01-10 14:02:48} {[2265fd]1月10日IOS正版正式上线[-] 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的水晶 000000 2017-01-10 18:12:46} {[2265fd]1月10日IOS正版正式上线[-] 
+还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的 000000 2017-01-10 19:37:26} {[2265fd]1月10日IOS正版正式上线[-] 
+还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的  2017-01-16 10:32:53} {[2265fd]1月10日IOS正版正式上线[-] 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的水晶 000000 2017-01-16 10:55:03} {qwe sd  wqe 2017-01-18 14:30:34} {个 给对方 人 2017-01-22 12:00:41} {一天hty 换个 000000 2017-01-22 12:12:04}] 
+2017/02/07 10:11:08 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:08 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:08 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:08 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:10 [D] [history.go:667] extract_partner 
+2017/02/07 10:11:10 [D] [database.go:16] xysk:123456@tcp(127.0.0.1:3306)/gmtools 
+2017/02/07 10:11:10 [D] [history.go:601] [{顶级招募 2017-1-17 10:35 2017-1-17 10:55 已结束 2017-01-17 10:40:57} {顶级招募 2017-1-17 10:35 2017-1-17 10:55 已结束 2017-01-17 10:43:49} {顶级招募 2017-1-17 11:15 2017-1-17 12:00 已结束 2017-01-17 11:18:28} {顶级招募 2017-1-17 11:25 2017-1-17 12:00 已结束 2017-01-17 11:27:32} {顶级招募 2017-1-17 11:25 2017-1-17 11:50 已结束 2017-01-17 11:39:30} {顶级招募 2017-1-17 11:25 2017-1-17 12:05 已结束 2017-01-17 11:51:13} {顶级招募 2017-1-17 12:55 2017-1-17 13:30 已结束 2017-01-17 13:01:54} {顶级招募 2017-1-17 12:55 2017-1-17 13:05 已结束 2017-01-17 13:02:46}] 
+2017/02/07 10:11:15 [D] [history.go:667] Money_partner 
+2017/02/07 10:11:15 [D] [database.go:16] xysk:123456@tcp(127.0.0.1:3306)/gmtools 
+2017/02/07 10:11:15 [D] [history.go:656] [{小额礼包 2017-1-17 11:40 2017-1-17 11:50 已结束 2017-01-17 11:42:31} {小额礼包 2017-1-17 11:40 2017-1-17 12:05 已结束 2017-01-17 11:50:57} {小额礼包 2017-1-22 10:05 2017-1-22 10:15 已结束 2017-01-22 10:06:53} {小额礼包 2017-1-22 10:20 2017-1-22 10:35 已结束 2017-01-22 10:24:27} {小额礼包 2017-1-22 10:20 2017-1-22 10:35 已结束 2017-01-22 10:24:59} {小额礼包 2017-1-22 10:25 2017-1-22 10:35 已结束 2017-01-22 10:26:16} {小额礼包 2017-1-22 10:35 2017-1-22 10:40 已结束 2017-01-22 10:38:47} {小额礼包 2017-1-22 10:35 2017-1-22 10:40 已结束 2017-01-22 10:41:05} {小额礼包 2017-1-22 10:40 2017-1-22 10:50 已结束 2017-01-22 10:44:03} {小额礼包 2017-1-22 11:00 2017-1-22 11:10 已结束 2017-01-22 11:03:28} {小额礼包 2017-1-22 11:00 2017-1-22 11:20 已结束 2017-01-22 11:06:01} {小额礼包 2017-1-22 11:05 2017-1-22 11:15 已结束 2017-01-22 11:08:05} {小额礼包 2017-1-22 11:05 2017-1-22 11:20 已结束 2017-01-22 11:09:51} {小额礼包 2017-1-22 11:00 2017-1-22 11:20 已结束 2017-01-22 11:12:03} {小额礼包 2017-1-22 11:10 2017-1-22 11:20 已结束 2017-01-22 11:14:18} {小额礼包 2017-1-22 11:15 2017-1-22 11:25 已结束 2017-01-22 11:17:04} {小额礼包   已结束 2017-01-22 11:19:26} {小额礼包 2017-1-22 11:20 2017-1-22 11:35 已结束 2017-01-22 11:25:27} {小额礼包 2017-1-22 11:30 2017-1-22 11:40 已结束 2017-01-22 11:35:04} {小额礼包 2017-1-22 11:35 2017-1-22 11:40 已结束 2017-01-22 11:36:58} {小额礼包 2017-1-22 12:00 2017-1-22 12:10 已结束 2017-01-22 12:03:30} {小额礼包 2017-1-22 16:25 2017-1-22 16:35 已结束 2017-01-22 16:30:31}] 
+2017/02/07 10:11:38 [D] [history.go:667] system_notice 
+2017/02/07 10:11:38 [D] [database.go:16] xysk:123456@tcp(127.0.0.1:3306)/gmtools 
+2017/02/07 10:11:38 [D] [history.go:134] [{1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群【563902680】，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+活 000000 2017-01-10 11:07:43} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群【563902680】，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+活 000000 2017-01-10 11:10:52} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群【563902680】，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+活 000000 2017-01-10 11:12:05} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[0000FF]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带 000000 2017-01-10 11:18:25} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[FFFF00]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带 000000 2017-01-10 11:20:05} {1月10日IOS正版正式上线 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[00FF00]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带 000000 2017-01-10 11:20:54} {[2265fd]1月10日IOS正版正式上线[-] 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带 000000 2017-01-10 11:25:27} {[2265fd]1月10日IOS正版正式上线[-] 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的水晶 000000 2017-01-10 14:02:48} {[2265fd]1月10日IOS正版正式上线[-] 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的水晶 000000 2017-01-10 18:12:46} {[2265fd]1月10日IOS正版正式上线[-] 
+还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的 000000 2017-01-10 19:37:26} {[2265fd]1月10日IOS正版正式上线[-] 
+还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的  2017-01-16 10:32:53} {[2265fd]1月10日IOS正版正式上线[-] 还原经典魔力宝贝，3D回合，十大职业自由转职，一场历史诗般的冒险旅程，在等着你。
+
+欢迎大家加入官方Q群[35b04d]【563902680】[-]，遇到任何问题请私聊群内客服
+
+我们为大家带来以下开服活动：
+
+[fd7f22]活动一[-]：首充豪礼送橙武
+首次进行充值（不包括1元抢购）的玩家，即可获得橙色破标武器、伙伴战神奎托斯、金币、技能草等丰富奖励
+
+[fd7f22]活动二[-]：七日登录送绿龙
+七日内，只要每日登录和完成一些简单的条件，就可以获得海量奖励，第七日更有龙系宠物相送
+
+[fd7f22]活动三[-]：成长基金翻倍拿
+购买成长基金不仅可以获得等价的水晶 000000 2017-01-16 10:55:03} {qwe sd  wqe 2017-01-18 14:30:34} {个 给对方 人 2017-01-22 12:00:41} {一天hty 换个 000000 2017-01-22 12:12:04}] 
+2017/02/07 10:11:38 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:38 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:38 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:38 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:40 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:40 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:40 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 
+2017/02/07 10:11:40 [D] [home.go:35] {"刘龙勤大区":[{"id":1,"capa":0,"area":0,"name":"心悦时空","areaname":"刘龙勤大区","host":"10.10.10.254","port":21001,"oauthport":21080,"payport":21081,"gmtport":8989,"logdbhost":"106.75.22.155","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["94523523","5425"]},{"id":2,"capa":0,"area":0,"name":"GMT测试","areaname":"刘龙勤大区","host":"10.10.10.251","port":20101,"oauthport":18080,"payport":20081,"gmtport":28989,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-gmt-log","CDN":"","version":"","Channels":["999999"]},{"id":3,"capa":0,"area":0,"name":"测试服务器2","areaname":"刘龙勤大区","host":"10.10.10.254","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"GameLog","CDN":"1_1_1","version":"1.1.1","Channels":["9"]},{"id":4,"capa":0,"area":0,"name":"QA","areaname":"刘龙勤大区","host":"10.10.10.2","port":20101,"oauthport":20080,"payport":20081,"gmtport":20189,"logdbhost":"10.10.10.254","logdbport":3306,"logdbusr":"xysk","logdbpwd":"123456","logdbname":"game-log","CDN":"1_1_1","version":"1.1.1","Channels":["9","9","8"]}]} 

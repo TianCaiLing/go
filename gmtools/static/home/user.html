@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>法兰城的回忆【用户统计】</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="../js/js.js"></script>
+    <!-- 侧导航 -->
+    <link href="../css/navbar-static-top.css" rel="stylesheet">
+    <link href="../css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+	<script>
+		//sessionStorage.setItem("type","1")//给你的第一个页面添加这句话，把type存进sessioStorage里面
+		if(sessionStorage.getItem("type")!=2){
+		window.location.href="index.html" //证明不是用户登录的，跳转到你需要的页面；
+		};
+	</script>
+  </head>
+  <body>
+    <!-- Static navbar -->
+   <nav class="navbar navbar-inverse navbar-static-top" role="navigation" >
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse" style="width:1401px;">
+          <ul class="nav navbar-nav ou">
+            <li ><a href="manage.html" >管理功能 </a></li>
+            <li><a href="chat.html" >聊天查询</a></li>
+            <li><a href="operative.html">运营活动</a></li>
+            <li><a href="role.html">角色查询</a></li>
+            <li><a href="history.html">历史公告邮件/活动状态查询</a></li>
+            <li><a href="gm.html" >GM功能</a></li>
+            <li><a href="statistic.html" >数据统计</a></li>
+            <li class="active"><a href="user.html" >用户统计</a></li>
+			<li><a href="simulator.html" >游服操作</a></li>
+			
+          </ul>
+           <button  type="button" id="Admin_btn" class="btn btn-default" style="margin-top:8px;margin-left:100px;">超级管理员</button>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- 导航结束 -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar w_sidebar">
+          <ul class="nav nav-sidebar ul">
+            <li class="active history"><a href="#">等级分布</a></li>
+            <li class="histor"><a href="#">用户留存</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main tab">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
